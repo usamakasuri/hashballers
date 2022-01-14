@@ -1,0 +1,124 @@
+.scoring-comp {
+  background: url('./../../assets/bg-scoring.jpg') no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 75px 0 76px 0;
+}
+
+.scoring-comp .content-section h1 {
+  font-family: 'Bebas Neue';
+  color: #fff;
+  font-size: 100px;
+  padding-top: 15px;
+}
+
+.scoring-comp .score-bg-img {
+  display: none;
+}
+
+.scoring-comp .content-section p {
+  font-family: 'IBM Plex Mono';
+  font-size: 18px;
+  color: #fff;
+  line-height: 30px;
+  padding-bottom: 18px;
+}
+
+.scoring-comp .content-section table {
+  color: #fff !important;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.scoring-comp .content-section table thead {
+  border-bottom: 1px solid #fff;
+  color: #898BA3;
+}
+
+.scoring-comp .content-section table thead tr th {
+  font-family: 'IBM Plex Mono';
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.scoring-comp .content-section table tbody tr td:nth-child(2) {
+  font-weight: bold;
+  background: linear-gradient(to right, #FBA043 0%, #FF6C75 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.scoring-comp .content-section table tbody tr td:nth-child(3),.scoring-comp .content-section table tbody tr td:nth-child(4) {
+  font-size: 18px;
+}
+
+.scoring-comp .content-section a {
+  font-family: 'Bebas Neue';
+  background-color: #fff;
+  color: #2081E2;
+  padding: 18px 45px;
+  font-size: 22px;
+  word-spacing: 2px;
+}
+
+.scoring-comp .content-section a:hover {
+  background-color: #fff;
+  color: #2081E2;
+  opacity: 0.9;
+}
+
+
+@media screen and (max-width: 768px) {
+  .scoring-comp .score-bg-img {
+    display: block;
+    width: 100%;
+  }
+  .scoring-comp {
+    background: #131848 !important;
+  }
+  .scoring-comp .content-section p {
+    padding-top: 18px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .scoring-comp .content-section h1 {
+    text-align: center;
+    font-size: 60px;
+  }
+  .scoring-comp .content-section a {
+    width: 100%;
+  }
+  .scoring-comp {
+    padding: 0px 0 50px 0;
+  }
+  table tbody img {
+    width: 20px;
+  }
+  
+  .scoring-comp .content-section table tbody tr td:nth-child(2), .scoring-comp .content-section table tbody tr td:nth-child(3), .scoring-comp .content-section table tbody tr td:nth-child(4) {
+    font-size: 16px;
+  }
+
+  .scoring-comp .content-section table thead tr th {
+    font-size: 16px;
+  }
+  
+}
+
+table tbody tr th:nth-child(1) {
+  text-align: center !important;
+}
+
+.icon-row{
+  text-align: center;
+}
+
+table thead th {
+  color: #898BA3;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+

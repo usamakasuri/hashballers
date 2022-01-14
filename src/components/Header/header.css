@@ -1,0 +1,171 @@
+.main-header {
+    background: url('./../../assets/Header-banner.png') no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+
+}
+
+.navbar {
+    z-index: 999;
+}
+
+/* .main-header .main-header-comp {
+    padding: 10px 155px;
+} */
+.main-header i.fa.fa-bars {
+    font-size: 28px;
+}
+
+.main-header .main-nav-link a {
+    color: #fff !important;
+    font-size: 16px;
+    font-family: 'IBM Plex Mono';
+}
+
+.main-header .main-nav-link a:hover {
+    text-decoration: underline;
+    transition: 1s ease !important;
+    transition-delay: 0.4s;
+    color: #fff !important;
+    opacity: 0.9;
+}
+
+.main-header .main-nav-link a:active {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.main-header .navbar-brand img {
+    width: 315px;
+    padding-top: 5px;
+}
+
+
+.main-header .social-icons .connect-wallet {
+    font-family: 'Bebas Neue';
+    color: #2081E2 !important;
+    font-size: 18px;
+    text-shadow: 1px 5px 3px #e5e5e5;
+    background-color: #fff !important;
+}
+
+.main-header .social-icons .connect-button {
+    background-color: #fff;
+    border-radius: 3px;
+    margin-left: 15px;
+    padding: 0px 20px;
+}
+
+
+.main-header ul.dropdown-menu.show {
+    background: #323371;
+    padding: 20px 0px;
+}
+
+.main-header .main-nav-link a:hover {
+    background: transparent;
+}
+
+.main-header .dropdown-menu a {
+    font-size: 14px;
+}
+
+.main-header .navbar {
+    padding: 20px 0px;
+}
+
+.social-icons li {
+    padding: 0px 3px;
+}
+
+  .navbar-light .navbar-toggler-icon::before {
+      background: url('./../../assets/mobile/Frame.png') no-repeat !important;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+      background: none !important;
+  }
+
+
+
+  @media screen and (max-width:768px){
+    .navbar-small{
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, .18);
+    }
+
+    .main-header .dropdown-menu a {
+        font-size: 14px;
+        padding: 5px 5px;
+    }
+
+    .main-header ul.dropdown-menu.show {
+        padding: 5px 0px;
+    }
+    .main-header ul.dropdown-menu.show {
+        background-color: transparent;
+        border: none;
+    }
+    .banner-section .banner-text h1 {
+        font-size: 50px;
+    }
+    .main-header {
+        background: url('../../assets/mobile/bg-banner-mobile01.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .main-header .social-icons {
+        display: block;
+    }
+    .main-header .social-icons li {
+        float: left;
+        padding-right: 25px;
+    }
+
+    .main-header .main-nav-link a:hover {
+        text-decoration: none;
+    }
+
+    .dropdown-toggle::after {
+        margin-left: 10px;
+    }
+
+    /* .main-header .social-icons .connect-button {
+        background-color: #fff;
+        border-radius: 3px;
+        margin-left: 70px;
+        padding: 0px 20px;
+    } */
+
+    .main-header .navbar-brand img {
+        width: 280px;
+    }
+
+    .main-header-comp {
+        padding-bottom: 20px;
+    }
+    
+}
+
+
+.navbar-toggler{
+    border: 0;
+    padding: 0; 
+    outline: none;
+}
+.navbar-toggler .navbar-toggler-icon{
+    color: #fff; 
+    font-size: 30px;
+    padding-top: 10px;
+}
+  
+.navbar-toggler[aria-expanded="false"] > .navbar-toggler-icon > .fa.fa-times{
+    display: none;
+}
+.navbar-toggler[aria-expanded="true"] > .navbar-toggler-icon > .fa.fa-bars{
+    display: none;
+}
+.navbar-toggler[aria-expanded="true"] > .navbar-toggler-icon > .fa.fa-times{
+    display: block;
+}

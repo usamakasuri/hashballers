@@ -1,0 +1,116 @@
+.team-section h1.team-heading {
+    font-family: 'Bebas Neue';
+    color: #0B0A2D;
+    font-size: 300px;
+    color: #fff;
+    text-align: center;
+}
+
+.team-section {
+background: #0B0A2D;
+padding: 0px 0px 100px;
+margin-top: -100px;
+}
+
+.team-slider {
+    margin-top: 40px;
+}
+
+.team-section .team-box {
+    text-align: center;
+}
+
+
+.team-section .team-box img {
+    display: inline-block;
+    align-items: inherit;
+}
+
+.team-section .team-box p {
+    font-family: 'IBM Plex Mono';
+    color: #fff;
+    color: 20px;
+    margin: 0;
+    padding: 4px 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.team-section .team-box h4 {
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    padding: 5px 0px;
+    margin: 0;
+    background: linear-gradient(to right, #FBA043 0%, #FF6C75 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.team-section .team-box span a {
+    color: white;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.team-section .team-box span a:hover {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.MobileTeamTile {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.team-section .team-box span a:hover {
+    color: #fff;
+}
+
+.team-section .slick-dots {
+    margin-bottom: 0px;
+}
+
+
+.slick-dots {
+    margin-top: 20px;
+}
+
+.slick-dots .slick-active button:before {
+    color: #fff;
+    height: 10px;
+}
+
+@media screen and (max-width: 768px) { 
+    .MobileTeamTile {
+        display: block;
+    } 
+    .team-section {
+        margin-top: -10px;
+    }
+}
+
+
+.team-section .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 20px !important;
+    line-height: 100px !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '';
+    text-align: center;
+    opacity: 1;
+    color: #fff !important;
+    background-color: transparent;
+}
+
+/* .slick-dots li.slick-active {
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+} */

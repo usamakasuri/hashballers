@@ -1,0 +1,97 @@
+.footer-component {
+    background: #0B0A2D;;
+    padding: 40px 0px;
+}
+
+.footer-component .footer-links ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.footer-component .footer-links ul li {
+    padding: 0px 15px;
+    float: left;
+}
+
+.footer-component .footer-links ul li a {
+    font-family: 'IBM Plex Mono';
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-component .footer-links ul li a:hover {
+    text-decoration: underline;
+    color: white;
+    opacity: 0.9;
+}
+
+.footer-component .footer-social-media ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.footer-component .footer-social-media ul li {
+    padding: 0px 0px 0px 20px;
+    float: left;
+}
+
+.footer-component .footer-social-media ul li a {
+    font-family: 'IBM Plex Mono';
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-component .footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-component .footer-social-media {
+    display: flex;
+    justify-content: end;
+}
+
+.footer-component .border-top {
+    border-top: 1px solid grey;
+}
+
+.footer-component .copyright p {
+    padding: 30px 30px;
+    color: #858496;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-component .logo-section {
+        text-align: center;
+    }
+
+    .footer-component .footer-links ul li {
+        padding: 10px 10px;
+        float: none;
+        text-align: center;
+    }
+    .footer-component .footer-links {
+        padding: 25px 0px;
+    }
+    .footer-component .footer-social-media {
+        padding-top: 10px 0px;
+    }
+    .copyright {
+        padding: 50px 0px 10px 0px;
+        color: #858496;
+    }
+    .footer-component .footer-social-media {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.border-top-color {
+    border-top: 1px solid grey;
+}

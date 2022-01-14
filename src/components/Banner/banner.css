@@ -1,0 +1,150 @@
+.banner-section {
+    padding-bottom: 50px;
+}
+
+.banner-section .banner-text h1 {
+    font-family: 'Bebas Neue';
+    font-size: 100px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+.banner-section-one {
+    padding: 50px 0px 200px 0px;
+}
+
+.banner-section .banner-text {
+    padding: 50px 0px 0px 0px;
+}
+
+.banner-section .backstory-content {
+    padding: 200px 0px 200px 0px;
+}
+
+.banner-button a.meet-ballers {
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    color: #fff !important;
+    padding: 15px 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-image: linear-gradient(to right, #FBA043 0%, #FF6C75 100%);
+    color: white;
+    border: 5px yellow !important;
+}
+
+.banner-button a.meet-ballers:hover {
+    background-image: linear-gradient(to left, #FBA043 0%, #FF6C75 100%);
+    opacity: 0.9;
+}
+
+.banner-button a.opensea-shop {
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    color: #2081E2 !important;
+    background-color: #fff !important;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+.banner-button a.opensea-shop:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+
+.banner-button a.meet-ballers:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+
+
+.banner-button a.opensea-shop:hover {
+    opacity: 0.9;
+}
+
+.banner-button img {
+    width: 30px;
+}
+
+.banner-section .backstory h1 {
+    font-family: 'Bebas Neue';
+    color: #FFFFFF;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.banner-section .backstory p {
+    font-family: 'IBM Plex Mono';
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px 5px;
+    line-height: 24px;
+    margin: 0;
+    line-height: 30px;
+}
+
+.banner-section .span-class {
+    background: linear-gradient(to right, #FBA043 0%, #FF6C75 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button-group a.shop-on-opensea:active {
+    background: white;
+    color: red;
+}
+
+/* 
+.plyer-card-section {
+        width: 85%;
+        max-width: 100%;
+        box-shadow: -1px 3px 10px -1px rgba(0,0,0,0.68);
+    -webkit-box-shadow: -1px 3px 10px -1px rgba(0,0,0,0.68);
+    -moz-box-shadow: -1px 3px 10px -1px rgba(0,0,0,0.68);
+    margin-top: 105px;
+} */
+
+
+@media screen and (max-width: 1366px) {
+    .banner-section .banner-text h1 {
+        font-size: 85px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner-section .banner-text h1 {
+        font-size: 60px;
+        line-height: 50px;
+        letter-spacing: 2px;
+    }
+    .banner-section .banner-text {
+        padding: 130px 0px 50px;
+    }
+    .banner-button a.opensea-shop {
+        width: 100%;
+        margin: 10px 0px 5px 0px; 
+        margin-left: 0px
+    }
+    .banner-button a.meet-ballers {
+        width: 100%;
+        margin: 10px 0px 5px 0px; 
+    }
+    .banner-section {
+        padding-bottom: 100px;
+    }
+    .banner-section .backstory p {
+        padding: 15px 0px;
+        font-size: 16px;
+    }
+    .banner-section .backstory h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .banner-section .backstory-content {
+        padding: 300px 0px 100px 0px;
+    }
+  }

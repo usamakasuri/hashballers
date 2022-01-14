@@ -1,0 +1,211 @@
+.technical-section {
+    background-color: #131848;  
+}
+
+
+.technical-section .meeting-now {
+    background-color: #0F0D3B;
+    padding: 40px 50px 40px 50px;
+}
+
+.technical-section img.img-fluid.dna {
+    position: absolute;
+    z-index: 1;
+    left: -145px;
+    bottom: -130px;
+    width: 280px;
+}
+
+#minting-now {
+    padding: 50px 50px;
+}
+
+.technical-section {
+    padding: 20px 0;
+}
+
+.technical-section .meeting-now .left-section h1 {
+    font-family: 'Bebas Neue';
+    color: #fff;
+    font-size: 82px;
+    margin: 0;
+}
+
+.technical-section .meeting-now .left-section p {
+    font-family: 'Bebas Neue';
+    background: linear-gradient(to right, #FBA043 0%, #FF6C75 100%);
+	-webkit-background-clip: text;
+    background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 28px;
+    margin: 0;
+}
+
+.technical-section .meeting-now .right-section p {
+    font-family: 'IBM Plex Mono';
+    color: #fff;
+    font-size: 18px;
+}
+
+#minting-now .right-section {
+    padding-left: 15px !important;
+}
+
+.technical-section .meeting-now .right-section a.buy-button {
+    font-family: 'Bebas Neue';
+    background-image: linear-gradient(to right, #FBA043 0%, #FF6C75 100%);
+    font-size: 24px;
+    margin-left: 24px;
+    color: #fff;
+    width: 188px;
+    border-radius: 5px;
+}
+
+.technical-section .meeting-now .right-section a.buy-button:hover {
+    background-image: linear-gradient(to left, #FBA043 0%, #FF6C75 100%);
+    text-decoration: none;
+}
+
+.technical-section .meeting-now .right-section select {
+    padding: 11px 30px;
+    width: 118px;
+    border: 1px solid #fff;
+    font-size: 20px;
+    background-color: #0F0D3B;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.technical-section .techninal-specs h1.technical {
+    font-family: 'Bebas Neue';
+    color: #fff;
+    font-size: 77px;
+    padding-top: 22px;
+}
+
+.technical-section .techninal-specs h4 {
+    font-family: 'IBM Plex Mono';
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 18px;
+}
+
+.technical-section .techninal-specs p {
+    font-family: 'IBM Plex Mono';
+    font-size: 16px;
+    color: #fff;
+}
+
+
+.technical-section .specs-box {
+    padding: 70px 10px;
+    background-color: #0F0D3B;
+    min-height: 375px;
+}
+
+/* #technical-specs {
+    padding: 50px 0px;
+} */
+
+.techninal-specs {
+    padding: 50px 0px 150px 0px;
+}
+
+.techninal-specs p {
+    font-size: 16px;
+}
+
+
+.techninal-specs p span {
+	background: linear-gradient(to right, #FBA043 0%, #FF6C75 100%);
+	-webkit-background-clip: text;
+    background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.techninal-specs p a:hover {
+    text-decoration: underline;
+    color: #FBA043;
+}
+
+#technical-specs .verified-text {
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .techninal-specs p span {
+        font-size: 12px;
+    }
+    .technical-section .meeting-now {
+        background-color: #0F0D3B;
+        padding: 70px 5px 50px 5px;
+    }
+    .technical-section .meeting-now .left-section h1 {
+        font-size: 60px;
+    }
+
+    .meeting-now {
+        text-align: center;
+    }
+
+    .technical-section .meeting-now .right-section a.buy-button {
+        width: 188px;
+        border-radius: 5px; 
+    }
+    .technical-section .meeting-now .right-section select {
+        width: 110px;
+        border-radius: 5px;
+    }
+    .technical-section .meeting-now .right-section p {
+        padding: 0px 10px;
+        font-size: 16px;
+    }
+
+    .technical-section .buy-now {
+        padding: 0px 0px 30px 0px;
+    }
+
+    .techninal-specs {
+        padding: 70px 20px 30px 20px;
+    }
+
+    .technical-section .techninal-specs h1.technical {
+        font-size: 60px;
+    }
+    .meeting-now {
+        margin: 0 15px;
+    }
+    .technical-section img.img-fluid.dna {
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        left: 278px;
+        bottom: 286px;
+        width: 130px;
+    }
+
+    .technical-section .meeting-now .left-section p {
+        font-size: 22px;
+    }
+    .buy-now {
+        display: flex;
+        justify-content: center;
+    }
+
+    #minting-now .right-section {
+        padding-left: 0 !important;
+    }
+
+    #technical-specs .verified-text {
+        margin-top: 40px;
+    }
+
+  }
+
+  .buy-now {
+      display: flex;
+  }

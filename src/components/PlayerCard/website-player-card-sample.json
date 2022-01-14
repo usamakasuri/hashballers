@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "type": "hashballers",
+      "id": "1",
+      "attributes": {
+        "name": "Hashballer #8001",
+        "score_tier": "legendary",
+        "image": "../../assets/avatar-banner.png",
+        "score": "68.7",
+        "pts": "28.9",
+        "reb": "8.9",
+        "ast": "12.1"
+      }
+    },
+    {
+      "type": "hashballers",
+      "id": "2",
+      "attributes": {
+        "name": "Hashballer #8002",
+        "score_tier": "elite",
+        "image": "../../assets/avatar-banner.png",
+        "score": "58.7",
+        "pts": "22.9",
+        "reb": "7.9",
+        "ast": "8.2"
+      }
+    },
+    {
+      "type": "hashballers",
+      "id": "3",
+      "attributes": {
+        "name": "Hashballer #8003",
+        "score_tier": "all-star",
+        "image": "../../assets/avatar-banner.png",
+        "score": "52.7",
+        "pts": "18.9",
+        "reb": "8.2",
+        "ast": "5.2"
+      }
+    },
+    {
+      "type": "hashballers",
+      "id": "4",
+      "attributes": {
+        "name": "Hashballer #8004",
+        "score_tier": "starter",
+        "image": "../../assets/avatar-banner.png",
+        "score": "48.7",
+        "pts": "15.2",
+        "reb": "4.4",
+        "ast": "8.7"
+      }
+    },
+    {
+      "type": "hashballers",
+      "id": "5",
+      "attributes": {
+        "name": "Hashballer #8005",
+        "score_tier": "benchwarmer",
+        "image": "../../assets/avatar-banner.png",
+        "score": "33.2",
+        "pts": "12.2",
+        "reb": "3.2",
+        "ast": "4.5"
+      }
+    },
+    {
+      "type": "hashballers",
+      "id": "3",
+      "attributes": {
+        "name": "Hashballer #8006",
+        "score_tier": "all-star",
+        "image": "../../assets/avatar-banner.png",
+        "score": "41.7",
+        "pts": "19.4",
+        "reb": "9.4",
+        "ast": "4.5"
+      }
+    }
+  ]
+}
